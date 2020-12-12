@@ -106,9 +106,10 @@ header a
     border: 1px solid #5f5f5f;
     border-radius: 10px;
     height: 50px;
+    font-size: 25px;
   }
   
-  input[type=submit]
+  .form button
   {
     background-color:#00f798a8;
     border-radius: 5px;
@@ -118,6 +119,13 @@ header a
     height: 50px;
     width: 190px;
   }
+
+  .errorCode {
+    color:red;
+}
+  .error {
+    color:red;
+}
   
   /*footer*/
   .footer
@@ -170,7 +178,7 @@ header a
       height: 50px;
   }
   
-  .footer-center input[type=button] {
+  .footer-center button{
       width: 10%;
       height: 50px;
       font: bolder 20px 'Cookie', cursive;
@@ -179,7 +187,7 @@ header a
   ::placeholder
   {
     color:#5f5f5f;
-    font: normal 36px 'Cookie', cursive;
+    font: normal 26px 'Cookie', cursive;
   }
   
   
